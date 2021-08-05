@@ -9,7 +9,7 @@
 
     $tablename = "newTable";
     
-    //queries all the information fields in the table
+    //queries all the name information fields from the table
     $results = $db->query('SELECT name FROM '. $tablename);
 
     $data= array();
@@ -17,6 +17,6 @@
         array_push($data, $row);
     }
     
-    //prints the JSON format of the all information from the data array which includes all the information from the database table
+    //prints the JSON format of the all information from the data array which includes all the names from the database table
     echo json_encode($data);
 ?>
