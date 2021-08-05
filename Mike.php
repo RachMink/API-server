@@ -1,6 +1,6 @@
 <?php
 
-    //the first two lines allow us to view any errors the occur on the web-page
+    //the first two lines allow us to view any errors that might occur on the web-page
     error_reporting(E_ALL);
     ini_set('display_errors', 1);
 
