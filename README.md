@@ -1,5 +1,4 @@
-# CISC3140Lab4Task2
-Creating an API server that serves data from a database
+# Creating an API server that serves data from a database
 
 ### Introduction
 
